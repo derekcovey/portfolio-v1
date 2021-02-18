@@ -6,7 +6,8 @@ const About = () => {
     let skills = [
         { name: 'LANGUAGES', list: ['Web(HTML,CSS)', 'JavaScript', 'TypeScript', 'C#', 'Python', 'SQL', 'C++'] }, 
         { name: 'FRAMEWORKS', list: ['React.js', 'Node.js', 'Express.js'] }, 
-        { name: 'TOOLS', list: ['Git/Github', 'Linux(Unix)', 'Postman', 'Cisco Packet Tracer'] }
+        { name: 'TOOLS', list: ['Git/Github', 'Linux(Unix)', 'Postman', 'Cisco Packet Tracer'] },
+        { name: 'TOOLS', list: ['Git/Github', 'Linux(Unix)', 'Postman', 'Cisco Packet Tracer'] },
     ]
 
     return(

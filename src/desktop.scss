@@ -1,0 +1,206 @@
+@media only screen and (min-width: 1240px){
+
+    .wrapper{
+        max-width: 1240px;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+
+        &__burger-button{
+            display: none;
+        }
+    
+        &__links{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-width: 25%;
+            max-width: 33%;
+        }
+    
+        &__name{
+            display: inline-block;
+            font-weight: 300;
+        }
+    
+        &__link {
+            text-decoration: none;
+            font-weight: regular;
+            margin: 0 1.5vw;
+        }
+    }
+
+    .intro{
+        &__text{
+            min-height: 20vh;
+            
+            #intro__greeting{
+                font-size: 48px;
+            }
+            
+            p{
+                font-size: 32px;
+            }
+        }
+    }
+    
+    .block-header{
+        height: 10vh;
+    }
+    
+    .block-title{
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+        margin-left: 37px;
+        height: 10vh;
+    }
+    
+    .title{
+        font-size: 24px;
+        color: #E7E7E7;
+    }
+    
+    .projects {
+    
+        &__big-cards-list{
+            padding: 0 25px;
+            width: 100%;
+        }
+    
+        &__small-cards-list{
+            padding: 0 25px;
+            width: 100%;
+            column-count: 4;
+            column-gap: 30px;
+        }
+    }
+    
+    .big-card{
+        flex-direction: row;
+        margin-bottom: 75px;
+
+        &__imgs{
+            width: auto;
+            margin: 0;
+        }
+
+        &__desktop{
+            width: auto;
+        }
+
+        &__content{
+            width: 495px;
+        }
+    
+        &__mobile{
+            width: auto;
+            position: absolute;
+            right: -60px;
+            bottom: -15px;
+        }
+    
+        &__name{
+            margin-bottom: 42px;
+        }
+    
+        &__info{
+            font-size: 18px;
+            -webkit-line-clamp: 9;
+        }
+    }
+    
+    .small-card{
+        display: inline-block;
+        width: 100%;
+        min-height: 250px;
+        background-color: #141B28;
+        padding: 20px 25px;
+        box-shadow: 0px 2px 25px 2px rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        margin-bottom: 30px;
+    
+        &__header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    
+        &__name{
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    
+        &__info{
+            margin-bottom: 20px;
+        }
+    
+        &__foooter{
+            outline: none;
+            margin: 10px 0;
+            width: 30 auto;
+            overflow: hidden;
+        }
+    
+        &__external-link{
+            cursor: pointer;
+        }
+    }
+    
+    .technology-tag{
+        counter-increment: technology-tag;
+        display: inline-block   ;
+        width: auto;
+        font-size: 13px;
+        font-weight: 200;
+        padding: 5px 8px;
+        margin: 3px;
+        background: #1D2534;
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+    
+    .about {
+        padding: 0 25px;
+    
+        &__background-info{
+            display: grid;
+            grid-template-columns: 1.5fr 3fr;
+            margin-bottom: 40px;
+        }
+
+        &__title{
+            display: inline-block;
+        }
+    
+        &__text{
+            p{
+                font-size: 17px;
+            }
+        }
+        &__skills{
+            display: grid;
+            grid-template-columns: 1.5fr 3fr;
+        }
+    
+        &__skills-lists{
+            display: flex;
+            align-items: flex-start;
+        }
+    }
+    
+    .skills-block{
+        margin-right: 90px;
+    
+    
+        &__skills{
+            font-size: 17px;
+        }
+    }
+}
