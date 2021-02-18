@@ -5,7 +5,6 @@ import Projects from './blocks/Projects'
 import Contact from './blocks/Contact'
 import Wrapper from './components/Wrapper'
 import { WOW } from 'wowjs'
-import { useEffect } from 'react';
 
 function App() {
     const wow = new WOW({live: false});
