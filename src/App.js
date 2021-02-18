@@ -2,17 +2,24 @@ import './App.css';
 import About from './blocks/About';
 import Intro from './blocks/Intro';
 import Projects from './blocks/Projects'
+import Contact from './blocks/Contact'
 import Wrapper from './components/Wrapper'
+import { WOW } from 'wowjs'
+import { useEffect } from 'react';
 
 function App() {
+    const wow = new WOW({live: false});
+    wow.init()
+  
   return (
-    <div className="">
+    <>
       <Wrapper>
-        {/* <Intro /> */}
+        <Intro />
         <Projects />
         <About />
+        <Contact />
       </Wrapper>
-    </div>
+    </>
   );
 }
 

@@ -1,21 +1,19 @@
 import React from 'react'
 
 const BigProjectCard = ({project}) => {
-
     return(
-        <div className="big-project-card">
-            <div className="big-project-card-screens">
-                <img src="https://via.placeholder.com/560x315?text=Desktop+View" alt="Desktop View" className="desktop"/>
-                <img src="https://via.placeholder.com/135x240/A6A6A6/000000?text=Mobile+View" alt="#" className="mobile"/>
+        <div className="big-card wow animate__slideInUp" data-wow-duration="1.5s" data-wow-offset="20">
+            <div className="big-card__imgs">
+                <img src={project.desktopImg} alt="Desktop View" className="big-card__desktop"/>
+                <img src={project.mobileImg} alt="Mobile View" className="big-card__mobile"/>
             </div>
-            <div className="big-project-card-content">
-                <span className="big-project-card-name">
-                    {/* {project.name} */}
-                    Lorem ipsum dolor sit amet
+            <div className="big-card__content">
+                <span className="big-card__name title">
+                    {project.name}
                 </span>
-                <p className="big-project-card-info">
-                    {/* {project.info} */}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut delectus a, nostrum rerum accusamus optio blanditiis aliquid rem inventore possimus doloribus saepe voluptas error praesentium ut. Fugiat harum maiores est.
+                <p className="big-card__info">
+                    {project.info}
+                    
                 </p>
             </div>
         </div>
