@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SkillsBlock = ({block, i}) => {
+const SkillsBlock = ({block}) => {
 
     return(
-        <div key={i} className="skills-block">
+        <div key={block.id} className="skills-block">
             <div className="skills-block__header title">
                 {block.name}
             </div>
