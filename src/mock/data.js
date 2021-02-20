@@ -38,7 +38,28 @@ export const smallProjectCardData = [
         info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut delectus a, nostrum rerum accusamus optio',
         technologies: ['React.js', 'Tailwindcss', 'Express.js', 'React.js', 'Tailwindcss', 'Express.js'],
         githubLink: ''
-    }
+    },
+    {
+        id: uuidv4(),
+        name: 'Lorem ipsum dolor sit amet',
+        info: 'Lorem ipsum g elit. Aut delectus a, nostrum rerum accusamus optio',
+        technologies: ['React.js', 'React.js', 'Tailwindcss', 'Express.js'],
+        githubLink: ''
+    },
+    {
+        id: uuidv4(),
+        name: 'Lorem ipsum dolor sit amet',
+        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut delectus a, nostrum rerum accusamus optio',
+        technologies: ['React.js', 'Tailwindcss', 'Express.js', 'React.js', 'Tailwindcss', 'Express.js'],
+        githubLink: ''
+    },
+    {
+        id: uuidv4(),
+        name: 'Lorem ipsum dolor sit amet',
+        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut delectus a, nostrum rerum accusamus optio blanditiis aliquid rem inventore possimus doloribus saepe voluptas error praesentium ut. Fugiat harum maiores est.',
+        technologies: ['React.js', 'Tailwindcss', 'Express.js'],
+        githubLink: ''
+    },
 ]
 
 // skills data 
