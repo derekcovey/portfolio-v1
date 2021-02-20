@@ -19,9 +19,10 @@ body{
 }
 
 .wrapper{
-    max-width: 90vw;
+    max-width: 95vw;
     min-height: 100vh;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 .navbar{
@@ -50,8 +51,8 @@ body{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 10vh;
-        height: 80vh;
+        padding-bottom: 15vh;
+        height: 75vh;
     }
 
     &__text{
@@ -82,7 +83,6 @@ body{
     }
 
     &__small-cards-list{
-        padding: 0 25px;
         width: 100%;
         column-count: 1;
         column-gap: 30px;

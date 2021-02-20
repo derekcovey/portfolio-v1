@@ -5,12 +5,10 @@ import Projects from './blocks/Projects'
 import Contact from './blocks/Contact'
 import Wrapper from './Wrapper'
 
-import { PortfolioProvider } from '../context/portfolio-context'
 
 import { bigProjectCardData, smallProjectCardData, skillsData } from '../mock/data'
 
 function App() {
-
   const [bigProjectCards, setBigProjectCards] = useState([]);
   const [smallProjectCards, setSmallProjectCards] = useState([]);
   const [skills, setSkills] = useState([]);
@@ -22,14 +20,12 @@ function App() {
   }, [])
   
   return (
-    <PortfolioProvider value={{ bigProjectCards, smallProjectCards, skills }}>
       <Wrapper>
         <Intro />
-        <Projects />
-        <About />
+        <Projects bigProjectCards={bigProjectCards} smallProjectCards={smallProjectCards}/>
+        <About skills={skills}/>
         <Contact />
       </Wrapper>
-    </PortfolioProvider>
   );
 }
 

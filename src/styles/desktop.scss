@@ -4,9 +4,6 @@
     .navbar{
         justify-content: space-between;
 
-    
-        
-    
         &__name{
             display: inline-block;
             font-weight: 300;
@@ -14,6 +11,10 @@
     }
 
     .intro{
+        &__content{
+            height: 80vh;
+            padding-bottom: 10vh;
+        }
         &__text{
             min-height: 20vh;
             
@@ -47,7 +48,6 @@
     .projects {
     
         &__big-cards-list{
-            padding: 0 25px;
             width: 100%;
         }
     
