@@ -10,7 +10,7 @@ const Contact = () => {
                     Get in touch!
                 </div>
                 <ul className="contact__social-media">
-                    <li><a href="https://github.com/derekcovey">Github</a></li>
+                    <li><a href="https://github.com/dtojikulov">Github</a></li>
                     <li><a href="https://www.linkedin.com/in/diyorbektojikulov/">LinkedIN</a></li>
                     <li><a href="https://www.facebook.com/coveyderek/">Facebook</a></li>
                     <li><a href="https://t.me/sw_derek">Telegram</a></li>
